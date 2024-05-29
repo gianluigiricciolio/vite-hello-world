@@ -1,17 +1,35 @@
 <script>
+  import AppTitle from './components/AppTitle.vue';
+
   export default {
-    name:'myapp',
+    name:'MyApp',
     data(){
       return{
-        title: 'La mia prima app con vite'
+
       }
+    },
+
+    components: {
+      AppTitle,
     }
 
   }
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+
+  <header>
+
+  </header>
+  
+  <main>
+    <AppTitle></AppTitle>
+  </main>
+
+  <footer>
+
+  </footer>
+
 </template>
 
 
